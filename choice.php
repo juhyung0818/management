@@ -59,14 +59,29 @@
                                                 <input type='hidden' name='cNum' value=$cInfo[0]>
                                                 <input type='submit' value='변경'><br><br> 
                                                 </form><br>";
+<<<<<<< HEAD
+=======
+                                                //여기 name값넘기는거 잘 수정해서 change.php에 값 잘ㄷ전달하기.
+                                                //값전달하면서 고객번호도 전달하면 좋을텐데 방법찾기
+                                                //여러개의 값 넘기는 방법 찾기
+>>>>>>> origin/common_part
                                     }
                                 }
                                 break; 
                             }                       
                         }
+<<<<<<< HEAD
                         mysql_close($s);
                     }
                 ?>
 		</div>
+=======
+                    mysql_close($s);
+                    }
+                ?>
+
+		</div>
+  
+>>>>>>> origin/common_part
     </body>
 </html>
