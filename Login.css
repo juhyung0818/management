@@ -1,0 +1,16 @@
+@CHARSET "EUC-KR";
+
+#LogIn {
+	width:540px;
+	height:200px;
+	border-color:blue;
+}
+
+#join {
+	size:5;
+	text-decoration:none;
+	color:black;
+}
+#join:hover {
+	color:blue;
+}
